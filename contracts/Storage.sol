@@ -2,7 +2,7 @@
 pragma solidity ^0.8.18;
 
 contract Storage {
-    uint256 private storedData;
+    uint256 private storedData;  
 
     function set(uint256 x) public {
         storedData = x;
